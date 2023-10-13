@@ -1,0 +1,29 @@
+/* Associação pelo NOME DE ELEMENTO*/
+h1 {
+    color: #000;
+}
+
+/* Associação pelo ID DO ELEMENTO*/
+#tit_1 {
+    font-size: 40px;
+}
+
+/* Associação pela CLASSE DO ELEMENTO*/
+.noticias {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p,h1 {
+    background-color: #d3d3d3;
+    
+    
+
+}
+.listas {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+}
+.destaque {
+    color: red;
+}
