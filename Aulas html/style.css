@@ -1,6 +1,6 @@
 /* Associação pelo NOME DE ELEMENTO*/
 h1 {
-    color: #000;
+    color: #ff0000;
 }
 
 /* Associação pelo ID DO ELEMENTO*/
@@ -25,5 +25,5 @@ p,h1 {
     align-items: left;
 }
 .destaque {
-    color: red;
+    color: #0000ff;
 }
