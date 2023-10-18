@@ -27,3 +27,31 @@ p,h1 {
 .destaque {
     color: #0000ff;
 }
+
+#conteudo {
+    width: 70%;
+    background-color: blanchedalmond;
+    float: left;
+}
+#menuContexto {
+    width: 30%;
+    background-color: lightblue;
+    float: left;
+}
+#rodape {
+    clear: both;
+}
+table {
+    width: 100%;
+}
+table caption {
+    font-weight: bolder;
+    font-size: 30px;
+}
+th {
+    background-color: #808080;
+    color: #fff;
+}
+td {
+    background-color: #f0ffff;
+}
