@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+header {
+    background-color: lightgreen;
+
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    background-color: lightgray;
+
+}
+
+.boxNoticias {
+    width: 30%;
+    min-width: 300px;
+    padding: 20px;
+
+}
+
+.noticiaDestaque {
+    flex-grow: 2;
+}
+.not4 {
+    order: 1;
+
+}
+.not1, .not3, .not5 {
+    order: 2;
+}
+.not2 {
+    order: 3;
+}
