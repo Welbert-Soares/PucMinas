@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+      }
+      .title {
+        font-size: 20px;
+      }
+      .valores {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1px;
+      }
+      .valores span {
+        font-size: 20px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body class="container">
+    <header class="title">
+      <h1>Calculadora</h1>
+    </header>
+    <div class="valores">
+      <span>Valor 1</span>
+      <input
+        type="number"
+        name="txtNum1"
+        id="txtNum1"
+        placeholder="Digite um número"
+      /><br />
+      <span>Valor 2</span>
+      <input
+        type="number"
+        name="txtNum2"
+        id="txtNum2"
+        placeholder="Digite outro número"
+      />
+    </div>
+    <div class="btn">
+      <button id="btnSomar">+</button>
+      <button id="btnSubtrair">-</button>
+      <button id="btnDividir">/</button>
+      <button id="btnMultiplicar">*</button>
+    </div>
+    <div class="result">
+      <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
